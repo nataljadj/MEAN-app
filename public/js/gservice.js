@@ -16,8 +16,6 @@ angular.module('gservice', [])
         // -------------------------------------------------------------
         // Service our factory will return
         var googleMapService = {};
-            googleMapService.clickLat = 0;
-            googleMapService.clickLong = 0;
 
         // Array of locations obtained from API calls
         var locations = [];
@@ -25,6 +23,8 @@ angular.module('gservice', [])
         // Selected Location (initialize to center of America)
         var selectedLat = 39.50;
         var selectedLong = -98.35;
+        //googleMapService.clickLat = selectedLat;
+        //googleMapService.clickLong = selectedLong;
 
         // Functions
         // --------------------------------------------------------------
