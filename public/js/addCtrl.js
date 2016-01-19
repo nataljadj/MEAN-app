@@ -35,7 +35,7 @@ addCtrl.controller('addCtrl', [
         $scope.formData.latitude = 39.500;
         $scope.formData.longitude = -98.350;
 
-        $rootScope.$on("click", function () {
+        $rootScope.$on("clicked", function () {
             // Run the gservice functions associated with identifying coordinates
             $timeout(function () {
                 $scope.$apply(function () {

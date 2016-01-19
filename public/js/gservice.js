@@ -89,11 +89,8 @@ angular.module('gservice', [])
 // Initializes the map
         var initialize = function(latitude, longitude) {
 
-            $rootScope.$broadcast("clicked");
-
             // Uses the selected lat, long as starting point
             var myLatLng = {lat: selectedLat, lng: selectedLong};
-
 
             // If map has not been created already...
             if (!map){
